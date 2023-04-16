@@ -12,4 +12,13 @@ int main()
     std::cout << i - u << std::endl;
     std::cout << u - i << std::endl;
     std::cout << u - i2 << std::endl; // = uint (10 - 42) = (-32) % 4294967296 = 4294967264
+
+    std::cout << "2M" << "\n";
+    std::cout << "2" << "\t" << "M" << "\n";
+
+    int q = 100, sum = 0;
+    for (int q = 0; q != 10; ++q) {
+        sum += q;
+    }
+    std::cout << q << " " << sum << std::endl;
 }
