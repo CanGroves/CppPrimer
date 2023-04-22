@@ -24,4 +24,10 @@ int main()
     input.resize(i);
     
     cout << input << endl;
+
+    // exer 3.11
+    const string s = "Keep out!";
+    for (auto &c : s) {
+        cout << c << endl;
+    }
 }
